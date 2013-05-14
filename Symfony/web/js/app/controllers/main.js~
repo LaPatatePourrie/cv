@@ -4,6 +4,7 @@ app.controller('MainCtrl', function MainCtrl( $scope, $location, storage, filter
 	var users = $scope.users = storage.get({
 		success: function (users) {
 			console.log(users);
+
 		},
 		error: function () {alert('ERROR')}
 	});
