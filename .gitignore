@@ -1,17 +1,17 @@
 *#
-node_modules
-npm-debug.log
-ssl
-.DS_STORE
-*~
-.idea
+sails/node_modules
+sails/npm-debug.log
+sails/ssl
+sails/.DS_STORE
+sails/*~
+sails/.idea
 
-nbproject
+sails/nbproject
 
 # Ignore temporary files
-.tmp
+sails/.tmp
 
-*.swo
-*.swp
-*.swn
-*.swm
+sails/*.swo
+sails/*.swp
+sails/*.swn
+sails/*.swm
