@@ -1,11 +1,10 @@
 {% extends "AlexisCVBundle::layout.html.twig" %}
- 
-{% block title %}
-  Accueil
-{% endblock %}
+
  
 {% block site_body %}
  
   <h2>Bienvenue</h2>
- 
+  
+  
+  
 {% endblock %}

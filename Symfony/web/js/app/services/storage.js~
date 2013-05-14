@@ -1,20 +1,16 @@
 'use strict';
 
+
 app.factory( 'storage', function($http) {
-	var storage = {
-		get: function(query, callback) {
+	return {
+		get: function(query) {
 			switch (query) {
 
-				case 'users':
-					callback([
-						{name:'Alexis'}, 
-						{name:'Jean'}
-					]);
+				case 'menus':
+					return menus;
 				break;
 				
 			}
 		}
 	};
-	
-	 storage;
 });

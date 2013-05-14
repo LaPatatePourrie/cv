@@ -1,15 +1,13 @@
 'use strict';
 
+
 app.factory( 'storage', function($http) {
 	return {
-		get: function(query, callback) {
+		get: function(query) {
 			switch (query) {
 
-				case 'users':
-					callback([
-						{name:'Alexis'}, 
-						{name:'Jean'}
-					]);
+				case 'menus':
+					return menus;
 				break;
 				
 			}

@@ -1,5 +1,13 @@
-app.controller('MainCtrl', function MainCtrl( $scope, $location, storage, filterFilter ) {
-	var users = $scope.users = storage.get('user', function (users) {
-		console.log(users);
-	});
-});
+app
+.controller('MainCtrl', function MainCtrl( $scope, $location, filterFilter ) {
+	var menus = $scope.menus = storage.get('menus');
+	console.log(menus);
+})
+
+.controller('AccueilCtrl', function AccueilCtrl( $scope, $location, storage, filterFilter ) {
+
+})
+
+.controller('CVCtrl', function AccueilCtrl( $scope, $location, storage, filterFilter ) {
+
+})
